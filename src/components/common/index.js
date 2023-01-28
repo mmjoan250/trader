@@ -1,3 +1,4 @@
 import Welcome from "./Welcome";
+import Navbar from "./Navbar";
 
-export { Welcome };
+export { Welcome, Navbar };

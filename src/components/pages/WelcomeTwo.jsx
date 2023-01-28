@@ -11,7 +11,7 @@ const WelcomeTwo = () => {
         content="Become a more confident trader and set your path to more secure
           finacial future path. Invest using our easy-to-understand smart
           finacial tools."
-        to="/welcome-two"
+        to="/home"
       />
     </>
   );
