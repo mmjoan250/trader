@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../common";
+import { Navbar, RegisterModal } from "../common";
 
 const Home = () => {
   return (
@@ -26,9 +26,7 @@ const Home = () => {
             easy-to-understand trading tools.
           </div>
           <div className="d-flex flex-row">
-            <button className="btn btn-common  text-white me-3">
-              REGISTER NOW
-            </button>
+            <RegisterModal/>
             <button className="btn  btn-light border">READ MORE</button>
           </div>
         </div>
