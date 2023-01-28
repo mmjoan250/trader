@@ -30,6 +30,15 @@
   background-color: #00b3db;
   border-color: #285e8e; /*set the color you want here*/
 }
+.btn-common:hover,
+.btn-common:focus,
+.btn-common:active,
+.btn-common.active,
+.open > .dropdown-toggle.btn-common {
+  color: #fff !important;
+  background-color: #00b3db;
+  border-color: #285e8e; /*set the color you want here*/
+}
 
 .rights-text {
   font-size: 12px;
@@ -37,4 +46,8 @@
 
 .btn-common {
   background-color: #e74a4a;
+}
+
+.dollar {
+  color: #ff9000
 }
