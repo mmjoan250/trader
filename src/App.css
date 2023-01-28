@@ -1,0 +1,36 @@
+.welcome-one {
+  height: 100vh;
+  margin-bottom: 0% !important;
+  width: auto;
+}
+
+.main-container {
+  height: 100vh !important;
+  margin-bottom: 0% !important;
+}
+
+.welcome-title {
+  color: #a64f4f;
+}
+
+.welcome-btn {
+  background-color: #860f10;
+}
+
+.btn {
+  border-radius: 0% !important;
+}
+
+.welcome-btn:hover,
+.welcome-btn:focus,
+.welcome-btn:active,
+.welcome-btn.active,
+.open > .dropdown-toggle.welcome-btn {
+  color: #fff !important;
+  background-color: #00b3db;
+  border-color: #285e8e; /*set the color you want here*/
+}
+
+.rights-text {
+  font-size: 12px;
+}
