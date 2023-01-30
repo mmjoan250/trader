@@ -9,15 +9,10 @@ const Navbar = ({
   border,
   accounts_active,
   about_active,
-  news_active
+  news_active,
 }) => {
   return (
-    <nav
-      className={classNames(
-        "navbar navbar-expand-lg text-white fw-bold",
-        border
-      )}
-    >
+    <nav className={classNames("navbar navbar-expand-lg  fw-bold", border)}>
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img alt="logo" src={logo} height="60" />
