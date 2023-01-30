@@ -49,5 +49,15 @@
 }
 
 .dollar {
-  color: #ff9000
+  color: #ff9000;
+}
+
+.account-width {
+  width: 280px;
+  cursor: pointer;
+}
+
+.account-image {
+  width: 280px;
+  height: 190px;
 }
