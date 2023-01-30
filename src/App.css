@@ -62,12 +62,16 @@
   height: 190px;
 }
 
+.pointer {
+  cursor: "pointer" !important;
+}
+
 @media (min-width: 1270px) and (max-width: 1285px) {
   .account-width {
     width: 250px;
     cursor: pointer;
   }
-  
+
   .account-image {
     width: 250px;
     height: 160px;

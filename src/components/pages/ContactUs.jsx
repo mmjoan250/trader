@@ -1,6 +1,6 @@
 import React from "react";
 import { map } from "../../images";
-import { Navbar } from "../common";
+import { Navbar, Footer } from "../common";
 
 const ContactUs = () => {
   return (
@@ -73,6 +73,9 @@ const ContactUs = () => {
           <div>
             <button className="btn btn-common text-white">SIGN UP NOW</button>
           </div>
+        </div>
+        <div className="col-md-9 my-5">
+          <Footer/>
         </div>
       </div>
     </div>
