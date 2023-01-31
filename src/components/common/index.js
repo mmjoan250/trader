@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import CompareCard from "./CompareCard";
 import Pricing from "./Pricing";
 import Features from "./Features";
+import Support from "./Support";
 
 export {
   Welcome,
@@ -18,4 +19,5 @@ export {
   CompareCard,
   Pricing,
   Features,
+  Support
 };

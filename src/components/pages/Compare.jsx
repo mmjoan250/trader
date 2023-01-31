@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar, CompareCard, Pricing, Features } from "../common";
+import { Navbar, CompareCard, Pricing, Features, Support } from "../common";
 
 const Compare = () => {
   return (
     <div>
       <Navbar accounts_active={true} border="border-bottom" />
-      <div className="container px-5 d-flex justify-content-center flex-column align-items-center text-muted">
+      <div className="container mb-5 px-5 d-flex justify-content-center flex-column align-items-center text-muted">
         <div className="text-center text-center dollar fw-bold py-3 mt-5">
           COMPARE
         </div>
@@ -52,7 +52,9 @@ const Compare = () => {
           <div className="p-3 fw-bold">Pricing</div>
           <Pricing />
           <div className="p-3 fw-bold">Features</div>
-          <Features/>
+          <Features />
+          <div className="p-3 fw-bold">Support and services</div>
+          <Support />
         </div>
       </div>
     </div>
