@@ -6,6 +6,7 @@ import Accounts from "./Accounts";
 import AboutUs from "./AboutUs";
 import News from "./News";
 import Compare from "./Compare";
+import Login from "./Login";
 
 export {
   WelcomeOne,
@@ -16,4 +17,5 @@ export {
   AboutUs,
   News,
   Compare,
+  Login
 };

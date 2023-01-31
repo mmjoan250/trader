@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Navbar, RegisterModal } from "../common";
 
 const Home = () => {
@@ -15,9 +16,12 @@ const Home = () => {
               <div style={{ cursor: "pointer" }}>Manage</div>
               <div style={{ cursor: "pointer" }}>Account services</div>
             </div>
-            <button className="btn btn-common px-5 text-white">
-              LOGIN NOW
-            </button>
+            <Link
+              className="btn btn-common px-5 text-white d-flex justify-content-center align-items-center"
+              to="/login"
+            >
+              <span>LOGIN NOW</span>
+            </Link>
           </div>
           <div className="col-md-4">
             <div className="fs-1 my-5 display-4">

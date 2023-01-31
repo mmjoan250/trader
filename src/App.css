@@ -78,6 +78,7 @@
 
 a {
   text-decoration: none !important;
+  transform: none !important;
 }
 
 .compare-bg {
@@ -96,6 +97,12 @@ a {
   outline: #e74a4a;
   border-color: #e74a4a !important;
 }
+
+.login-container {
+  height: 100vh;
+}
+
+
 @media (min-width: 1270px) and (max-width: 1285px) {
   .account-width {
     width: 250px;
