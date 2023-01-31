@@ -1,5 +1,12 @@
 import React from "react";
-import { Navbar, CompareCard, Pricing, Features, Support } from "../common";
+import {
+  Navbar,
+  CompareCard,
+  Pricing,
+  Features,
+  Support,
+  Questions,
+} from "../common";
 
 const Compare = () => {
   return (
@@ -9,7 +16,7 @@ const Compare = () => {
         <div className="text-center text-center dollar fw-bold py-3 mt-5">
           COMPARE
         </div>
-        <div className="fs-1 my-5 display-4 col-md-7 text-center">
+        <div className="fs-1 mb-5 display-4 col-md-7 text-center">
           Options for every trader
         </div>
         <div className="container border compare-bg">
@@ -55,6 +62,16 @@ const Compare = () => {
           <Features />
           <div className="p-3 fw-bold">Support and services</div>
           <Support />
+        </div>
+        <div className="text-center my-4">
+          <u>Tanzanian trading fee disclosures</u>
+        </div>
+
+        <div className="fs-1 my-5 display-6 col-md-7 text-center">
+          Commonly asked questions
+        </div>
+        <div className="col-md-7">
+          <Questions />
         </div>
       </div>
     </div>

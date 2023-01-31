@@ -8,6 +8,7 @@ import CompareCard from "./CompareCard";
 import Pricing from "./Pricing";
 import Features from "./Features";
 import Support from "./Support";
+import Questions from "./Questions";
 
 export {
   Welcome,
@@ -19,5 +20,6 @@ export {
   CompareCard,
   Pricing,
   Features,
-  Support
+  Support,
+  Questions
 };
