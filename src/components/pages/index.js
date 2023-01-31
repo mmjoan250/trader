@@ -5,5 +5,15 @@ import ContactUs from "./ContactUs";
 import Accounts from "./Accounts";
 import AboutUs from "./AboutUs";
 import News from "./News";
+import Compare from "./Compare";
 
-export { WelcomeOne, WelcomeTwo, Home, ContactUs, Accounts, AboutUs, News };
+export {
+  WelcomeOne,
+  WelcomeTwo,
+  Home,
+  ContactUs,
+  Accounts,
+  AboutUs,
+  News,
+  Compare,
+};

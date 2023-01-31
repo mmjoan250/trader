@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   account_one,
   account_two,
@@ -45,9 +46,9 @@ const Accounts = () => {
             period="Contact us"
           />
         </div>
-        <div className="py-5">
+        <Link className="py-5" to="/compare">
           <u>Compare accounts features</u>
-        </div>
+        </Link>
       </div>
     </div>
   );

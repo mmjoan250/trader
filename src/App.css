@@ -76,6 +76,26 @@
   cursor: "pointer" !important;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+.compare-bg {
+  background-color: #f4f4f5;
+}
+
+.compare-card {
+  width: 25%;
+}
+
+.text-success {
+  color: #2bd55c !important;
+}
+
+.white-btn {
+  outline: #e74a4a;
+  border-color: #e74a4a !important;
+}
 @media (min-width: 1270px) and (max-width: 1285px) {
   .account-width {
     width: 250px;

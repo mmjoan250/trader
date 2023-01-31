@@ -4,5 +4,18 @@ import RegisterModal from "./RegisterModal";
 import Input from "./Input";
 import Account from "./Account";
 import Footer from "./Footer";
+import CompareCard from "./CompareCard";
+import Pricing from "./Pricing";
+import Features from "./Features";
 
-export { Welcome, Navbar, RegisterModal, Input, Account, Footer };
+export {
+  Welcome,
+  Navbar,
+  RegisterModal,
+  Input,
+  Account,
+  Footer,
+  CompareCard,
+  Pricing,
+  Features,
+};
