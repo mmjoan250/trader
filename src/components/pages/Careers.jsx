@@ -1,5 +1,6 @@
 import React from "react";
-import { Navbar } from "../common";
+import { Navbar, Footer, CareerCard } from "../common";
+import { account_one } from "../../images";
 
 const Careers = () => {
   return (
@@ -15,6 +16,28 @@ const Careers = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="my-3 container d-flex flex-row">
+        <div className="me-3">
+          <img
+            alt="career"
+            src={account_one}
+            className="image-fluid career-image"
+            // height="200"
+          />
+        </div>
+        <div className="col-md-6">
+          <div className="display-6 dollar">Oppotunities of the Month</div>
+          <CareerCard />
+          <CareerCard />
+          <CareerCard />
+          <CareerCard />
+          <CareerCard />
+        </div>
+      </div>
+      <div className="container mt-5">
+        <Footer />
       </div>
     </div>
   );

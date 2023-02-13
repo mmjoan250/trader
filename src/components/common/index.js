@@ -9,6 +9,7 @@ import Pricing from "./Pricing";
 import Features from "./Features";
 import Support from "./Support";
 import Questions from "./Questions";
+import CareerCard from "./CareerCard";
 
 export {
   Welcome,
@@ -21,5 +22,6 @@ export {
   Pricing,
   Features,
   Support,
-  Questions
+  Questions,
+  CareerCard
 };
