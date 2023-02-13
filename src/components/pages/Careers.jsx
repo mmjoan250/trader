@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Footer, CareerCard } from "../common";
 import { account_one } from "../../images";
+import { Link } from "react-router-dom";
 
 const Careers = () => {
   return (
@@ -28,7 +29,21 @@ const Careers = () => {
           />
         </div>
         <div className="col-md-6">
-          <div className="display-6 dollar">Oppotunities of the Month</div>
+          <div>
+            <div className="pb-3">
+              <Link
+                className="btn btn-common text-white fw-bold"
+                to="/hr-portal"
+              >
+                Add a Job
+              </Link>
+              <small className="ms-2 text-muted">
+                (Add a job button will only be visible by the HR once the
+                backend side is implemented)
+              </small>
+            </div>
+            <div className="display-6 dollar">Oppotunities of the Month</div>
+          </div>
           <CareerCard />
           <CareerCard />
           <CareerCard />
