@@ -10,6 +10,7 @@ import Features from "./Features";
 import Support from "./Support";
 import Questions from "./Questions";
 import CareerCard from "./CareerCard";
+import CareerItem from "./CareerItem";
 
 export {
   Welcome,
@@ -23,5 +24,6 @@ export {
   Features,
   Support,
   Questions,
-  CareerCard
+  CareerCard,
+  CareerItem
 };

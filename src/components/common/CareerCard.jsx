@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CareerCard = () => {
   return (
@@ -6,9 +7,9 @@ const CareerCard = () => {
       <div className="">
         Frontend Software Developer: Deadline 28 February 2023
       </div>
-      <div style={{ cursor: "pointer" }}>
+      <Link style={{ cursor: "pointer" }} to="/career">
         <i class="fa-solid fa-chevron-right fw-bold text-primary"></i>
-      </div>
+      </Link>
     </div>
   );
 };
