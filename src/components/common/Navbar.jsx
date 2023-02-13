@@ -10,6 +10,7 @@ const Navbar = ({
   accounts_active,
   about_active,
   news_active,
+  careers_active,
 }) => {
   return (
     <nav className={classNames("navbar navbar-expand-lg  fw-bold", border)}>
@@ -68,6 +69,15 @@ const Navbar = ({
                 to="/news"
               >
                 {news_active ? <u>News</u> : "News"}
+              </Link>
+              <Link
+                className={classNames(
+                  "nav-link pe-5 me-1",
+                  careers_active ? "active" : ""
+                )}
+                to="/careers"
+              >
+                {careers_active ? <u>Careers</u> : "Careers"}
               </Link>
               <Link
                 className={classNames(

@@ -9,6 +9,7 @@ import {
   News,
   Compare,
   Login,
+  Careers
 } from "./components/pages";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.css";
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/news" element={<News />} />
         <Route path="/compare" element={<Compare />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/careers" element={<Careers />} />
       </Routes>
     </Router>
   );
