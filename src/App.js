@@ -10,7 +10,8 @@ import {
   Compare,
   Login,
   Careers,
-  Career
+  Career,
+  HRCareer
 } from "./components/pages";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.css";
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/hr-portal" element={<HRCareer />} />
       </Routes>
     </Router>
   );

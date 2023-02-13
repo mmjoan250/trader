@@ -9,6 +9,7 @@ import Compare from "./Compare";
 import Login from "./Login";
 import Careers from "./Careers";
 import Career from "./Career";
+import HRCareer from "./HRCareer";
 
 export {
   WelcomeOne,
@@ -21,5 +22,6 @@ export {
   Compare,
   Login,
   Careers,
-  Career
+  Career,
+  HRCareer
 };
